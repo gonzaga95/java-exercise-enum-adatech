@@ -18,8 +18,8 @@ public class Principal {
 
         scanner.close();
 
-        OperacaoMatematica operacaoMatematica = null;
-        operacaoMatematica = operacaoMatematica.valueOf(operacao.toUpperCase());
+        OperacaoMatematica operacaoMatematica;
+        operacaoMatematica = OperacaoMatematica.valueOf(operacao.toUpperCase());
 
         switch (operacaoMatematica) {
             case SOMA:
