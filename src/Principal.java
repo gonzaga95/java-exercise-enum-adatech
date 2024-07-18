@@ -16,6 +16,8 @@ public class Principal {
         System.out.println("Informe o segundo número: ");
         double num2 = scanner.nextDouble();
 
+        scanner.close();
+
         OperacaoMatematica operacaoMatematica = null;
         operacaoMatematica = operacaoMatematica.valueOf(operacao.toUpperCase());
 
